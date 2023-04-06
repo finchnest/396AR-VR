@@ -1,0 +1,11 @@
+* Modularity: When solving a problem, it's always good to divide it into 'logical units' that can each be handled individually and assembled together to solve the main problem. This allows us to focus on one chunk and possibly use customized or even different programming language/technique in a way the doesn't interfer with other divisions of the problem. 
+
+I separated my CSS, HTML, and JS files to make it easier for me to work with each of them individually. That reduces coupling.
+
+* Accessibility: Users of a given product can have various backgrounds we don't know about; they may have some sort of disability that makes it hard for them to utilize a webpage, for example. Thus, when designing a website or product, accessiblity issue needs to be considered in the development process. 
+
+I made sure to add label to almost all tags to help computer screen readers. For those with sight problem, I made sure to check contrast of colors.
+
+* Getting Others Right: This New York Times article is about how photos can be decepive and good at hiding what's going on behind the portrait we see -- "Capturing how things look fools us into thinking that we’ve captured their truth." The article recommends using multiple cues like intuition and context to understand the truth behind pictures. This paper kind of relates to the accessibility point that I mentioned above. We have a limited knowledge of things we don't have control over. Thus, to arrive at the truth, we should ask or combine information from multiple sources and make the right decision. 
+
+This insight is also related to accessibility.
