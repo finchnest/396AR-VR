@@ -1,0 +1,88 @@
+
+
+body{
+    background-image: url(final.jpg);
+    color: white;
+
+}
+
+body p{
+    text-align: center;
+}
+
+
+.collapsible {
+    background-color: rgba(211, 175, 58, 0.5);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    margin-left: 10%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #58d7b58c;
+  }
+  
+  .content {
+    display: none;
+    overflow: hidden;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #2321218a;
+  }
+
+
+  .box {
+    width: 100%;
+    height: 100px;
+    /* background-color: rgba(162, 211, 58, 0.5); */
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subbutton{
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    margin-left: 45%;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: green;
+    
+}
+
+
+nav {
+    display: flex; /* 1 */
+    justify-content: space-between; /* 2 */
+    padding: 1rem 2rem; /* 3 */
+    background: #7392b0ba; /* 4 */
+}
+  
+  nav ul {
+    display: flex; /* 5 */
+    list-style: none; /* 6 */
+  }
+  
+  nav li {
+    padding-left: 3rem; /* 7! */
+    
+  }
+  nav a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
